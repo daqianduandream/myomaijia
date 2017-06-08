@@ -1,0 +1,32 @@
+{
+  "name": "myomaijia",
+  "version": "1.0.0",
+  "description": "新的",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daqianduandream/myomaijia.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daqianduandream/myomaijia/issues"
+  },
+  "homepage": "https://github.com/daqianduandream/myomaijia#readme",
+  "dependencies": {
+    "jquery": "^3.2.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-webpack": "^1.5.0",
+    "gulp-webserver": "^0.9.1",
+    "imports-loader": "^0.7.1",
+    "string-loader": "0.0.1",
+    "vinyl-named": "^1.1.0",
+    "yo3": "^3.0.9"
+  }
+}
