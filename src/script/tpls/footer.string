@@ -1,7 +1,7 @@
 <footer>
 <ul>
-<li>职位</li>
-<li>搜索</li>
-<li>我的</li>
+<li class="active yo-ico ">&#xe647;职位</li>
+<li class="yo-ico">&#xe86e;搜索</li>
+<li class="yo-ico">&#xe86f;我的</li>
 </ul>
 </footer>

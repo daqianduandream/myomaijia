@@ -1,14 +1,21 @@
 #footer{
   height:.45rem;
   background:#c2cfcc;
+    width: 100%;
   ul{
     width:100%;
     height:100%;
-    display: flex;
+    @include flexbox();
     li{
-      flex:1;
+      @include flex(1);
       text-align:center;
       line-height:.45rem;
+      color:green;
+      font-size: .16rem;
+      &.active{
+        background: #e7f3f0;
+        color: $base-color;
+      }
     }
   }
 }

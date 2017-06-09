@@ -708,19 +708,175 @@ a {
   -moz-osx-font-smoothing: grayscale;
   vertical-align: middle; }
 
+@font-face {
+  font-family: 'yofont';
+  src: url("/images/iconfont/iconfont.woff") format("woff"), url("/images/iconfont/iconfont.ttf") format("truetype"); }
+
 #header {
   height: .45rem;
   width: 100%;
-  background: green; }
+  background: green;
+  font-size: .18rem;
+  color: #fff;
+  text-align: center;
+  line-height: .45rem; }
 
 #footer {
   height: .45rem;
-  background: #c2cfcc; }
+  background: #c2cfcc;
+  width: 100%; }
   #footer ul {
     width: 100%;
     height: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
     display: flex; }
     #footer ul li {
+      -webkit-box-flex: 1;
+      -webkit-flex: 1;
       flex: 1;
+      width: .1px;
       text-align: center;
-      line-height: .45rem; }
+      line-height: .45rem;
+      color: green;
+      font-size: .16rem; }
+      #footer ul li.active {
+        background: #e7f3f0;
+        color: green; }
+
+.m-index {
+  height: 100%;
+  background: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  flex-direction: column; }
+  .m-index section {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    flex: 1;
+    width: .1px;
+    width: 100%;
+    overflow-y: scroll; }
+    .m-index section nav {
+      width: 100%;
+      height: .44rem;
+      padding: 0 .15rem;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: flex;
+      position: relative;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      align-items: center; }
+      .m-index section nav::after {
+        pointer-events: none;
+        position: absolute;
+        z-index: 999;
+        top: 0;
+        left: 0;
+        overflow: hidden;
+        content: "\0020";
+        border-color: #ccc;
+        border-style: solid;
+        border-width: 0 0 1px 0;
+        -webkit-transform-origin: 0 0;
+        transform-origin: 0 0; }
+        @media (max--moz-device-pixel-ratio: 1.49), (-webkit-max-device-pixel-ratio: 1.49), (max-device-pixel-ratio: 1.49), (max-resolution: 143dpi), (max-resolution: 1.49dppx) {
+          .m-index section nav::after {
+            width: 100%;
+            height: 100%; } }
+        @media (min--moz-device-pixel-ratio: 1.5) and (max--moz-device-pixel-ratio: 2.49), (-webkit-min-device-pixel-ratio: 1.5) and (-webkit-max-device-pixel-ratio: 2.49), (min-device-pixel-ratio: 1.5) and (max-device-pixel-ratio: 2.49), (min-resolution: 144dpi) and (max-resolution: 239dpi), (min-resolution: 1.5dppx) and (max-resolution: 2.49dppx) {
+          .m-index section nav::after {
+            width: 200%;
+            height: 200%;
+            -webkit-transform: scale(0.5);
+            transform: scale(0.5); } }
+        @media (min--moz-device-pixel-ratio: 2.5), (-webkit-min-device-pixel-ratio: 2.5), (min-device-pixel-ratio: 2.5), (min-resolution: 240dpi), (min-resolution: 2.5dppx) {
+          .m-index section nav::after {
+            width: 300%;
+            height: 300%;
+            -webkit-transform: scale(0.33333);
+            transform: scale(0.33333); } }
+      .m-index section nav h1 {
+        -webkit-box-flex: 1;
+        -webkit-flex: 1;
+        flex: 1;
+        width: .1px;
+        font-size: .14rem;
+        line-height: .44rem; }
+      .m-index section nav div {
+        width: .84rem;
+        height: .3rem;
+        line-height: .3rem;
+        border-radius: 0.15rem;
+        -webkit-background-clip: padding-box !important;
+        background-clip: padding-box !important;
+        background: #f5f5f5;
+        text-align: center;
+        color: green; }
+    .m-index section ul li {
+      padding: .14rem;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: flex;
+      position: relative; }
+      .m-index section ul li::after {
+        pointer-events: none;
+        position: absolute;
+        z-index: 999;
+        top: 0;
+        left: 0;
+        overflow: hidden;
+        content: "\0020";
+        border-color: #ccc;
+        border-style: solid;
+        border-width: 0 0 1px 0;
+        -webkit-transform-origin: 0 0;
+        transform-origin: 0 0; }
+        @media (max--moz-device-pixel-ratio: 1.49), (-webkit-max-device-pixel-ratio: 1.49), (max-device-pixel-ratio: 1.49), (max-resolution: 143dpi), (max-resolution: 1.49dppx) {
+          .m-index section ul li::after {
+            width: 100%;
+            height: 100%; } }
+        @media (min--moz-device-pixel-ratio: 1.5) and (max--moz-device-pixel-ratio: 2.49), (-webkit-min-device-pixel-ratio: 1.5) and (-webkit-max-device-pixel-ratio: 2.49), (min-device-pixel-ratio: 1.5) and (max-device-pixel-ratio: 2.49), (min-resolution: 144dpi) and (max-resolution: 239dpi), (min-resolution: 1.5dppx) and (max-resolution: 2.49dppx) {
+          .m-index section ul li::after {
+            width: 200%;
+            height: 200%;
+            -webkit-transform: scale(0.5);
+            transform: scale(0.5); } }
+        @media (min--moz-device-pixel-ratio: 2.5), (-webkit-min-device-pixel-ratio: 2.5), (min-device-pixel-ratio: 2.5), (min-resolution: 240dpi), (min-resolution: 2.5dppx) {
+          .m-index section ul li::after {
+            width: 300%;
+            height: 300%;
+            -webkit-transform: scale(0.33333);
+            transform: scale(0.33333); } }
+      .m-index section ul li > div:first-child {
+        width: .6rem;
+        height: .6rem; }
+        .m-index section ul li > div:first-child img {
+          width: 100%; }
+      .m-index section ul li > div:nth-child(2) {
+        -webkit-box-flex: 1;
+        -webkit-flex: 1;
+        flex: 1;
+        width: .1px;
+        padding: 0 .1rem; }
+        .m-index section ul li > div:nth-child(2) h2 {
+          font-size: .16rem; }
+        .m-index section ul li > div:nth-child(2) p {
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          font-size: .12rem; }
+        .m-index section ul li > div:nth-child(2) span {
+          display: block;
+          color: #888;
+          font-size: .12rem; }
+      .m-index section ul li > div:last-child {
+        width: .6rem;
+        height: .6rem;
+        font-size: .16rem;
+        line-height: .6rem; }

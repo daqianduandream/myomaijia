@@ -1,0 +1,182 @@
+{
+    "content": {
+        "data": {
+            "isLogin": false,
+            "page": {
+                "pageSize": 15,
+                "start": "15",
+                "result": [{
+                    "logger": { "traceCapable": true, "name": "com.lagou.entity.mobile.MobilePosition" },
+                    "positionId": 2520682,
+                    "positionName": "中小企业客户经理",
+                    "city": "北京",
+                    "createTime": "昨天 22:58",
+                    "salary": "10K-18K",
+                    "companyId": 154138,
+                    "companyLogo": "i/image/M00/69/2F/Cgp3O1gS5ruAepO3AABEVu07JTM679.jpg",
+                    "companyName": "宁波银行",
+                    "companyFullName": "宁波银行北京通州支行"
+                }, {
+                    "logger": { "traceCapable": true, "name": "com.lagou.entity.mobile.MobilePosition" },
+                    "positionId": 2501737,
+                    "positionName": "瓜子二手车高级PHP工程师",
+                    "city": "北京",
+                    "createTime": "昨天 20:58",
+                    "salary": "20k-40k",
+                    "companyId": 107423,
+                    "companyLogo": "i/image/M00/0B/AE/Cgp3O1bWYyOAQo96AAC1TQO-4Cg541.jpg",
+                    "companyName": "瓜子二手车直卖网",
+                    "companyFullName": "车好多旧机动车经纪(北京)有限公司"
+                }, {
+                    "logger": { "traceCapable": true, "name": "com.lagou.entity.mobile.MobilePosition" },
+                    "positionId": 2504617,
+                    "positionName": "Python",
+                    "city": "北京",
+                    "createTime": "昨天 20:58",
+                    "salary": "20k-30k",
+                    "companyId": 107423,
+                    "companyLogo": "i/image/M00/0B/AE/Cgp3O1bWYyOAQo96AAC1TQO-4Cg541.jpg",
+                    "companyName": "瓜子二手车直卖网",
+                    "companyFullName": "车好多旧机动车经纪(北京)有限公司"
+                }, {
+                    "logger": { "traceCapable": true, "name": "com.lagou.entity.mobile.MobilePosition" },
+                    "positionId": 2349047,
+                    "positionName": "UED设计师，视觉设计师，网页设计师",
+                    "city": "杭州",
+                    "createTime": "昨天 20:47",
+                    "salary": "5k-10k",
+                    "companyId": 49338,
+                    "companyLogo": "image1/M00/0D/28/CgYXBlT25RCAeppiAAB_FHFpN9k437.jpg",
+                    "companyName": "赛会通",
+                    "companyFullName": "杭州小北科技有限公司"
+                }, {
+                    "logger": { "traceCapable": true, "name": "com.lagou.entity.mobile.MobilePosition" },
+                    "positionId": 2498384,
+                    "positionName": "影视公司）聘艺人导演助理",
+                    "city": "北京",
+                    "createTime": "昨天 20:47",
+                    "salary": "3k-5k",
+                    "companyId": 153569,
+                    "companyLogo": "i/image/M00/67/0F/CgqKkVgNd46APsobAAIgSmrTDW0539.jpg",
+                    "companyName": "三月雨文化传媒有限公司",
+                    "companyFullName": "北京三月雨文化传播有限责任公司"
+                }, {
+                    "logger": { "traceCapable": true, "name": "com.lagou.entity.mobile.MobilePosition" },
+                    "positionId": 2501026,
+                    "positionName": "高薪诚聘（影视视觉设计师",
+                    "city": "北京",
+                    "createTime": "昨天 20:47",
+                    "salary": "3k-5k",
+                    "companyId": 153569,
+                    "companyLogo": "i/image/M00/67/0F/CgqKkVgNd46APsobAAIgSmrTDW0539.jpg",
+                    "companyName": "三月雨文化传媒有限公司",
+                    "companyFullName": "北京三月雨文化传播有限责任公司"
+                }, {
+                    "logger": { "traceCapable": true, "name": "com.lagou.entity.mobile.MobilePosition" },
+                    "positionId": 2520495,
+                    "positionName": "课程顾问/电话/网络销售",
+                    "city": "广州",
+                    "createTime": "昨天 20:46",
+                    "salary": "6k-8k",
+                    "companyId": 103179,
+                    "companyLogo": "image2/M00/10/C6/CgqLKVYvXgWAK5b0AAChOt9-U4M148.png?cc=0.07331582205370069",
+                    "companyName": "尚德机构",
+                    "companyFullName": "深圳市尚德机构"
+                }, {
+                    "logger": { "traceCapable": true, "name": "com.lagou.entity.mobile.MobilePosition" },
+                    "positionId": 2308097,
+                    "positionName": "新媒体运营经理",
+                    "city": "北京",
+                    "createTime": "昨天 19:49",
+                    "salary": "10k-20k",
+                    "companyId": 133,
+                    "companyLogo": "image1/M00/39/70/CgYXBlWo3nqABJTsAADJ3hn5gmE062.jpg",
+                    "companyName": "猎豹移动",
+                    "companyFullName": "北京金山网络科技有限公司"
+                }, {
+                    "logger": { "traceCapable": true, "name": "com.lagou.entity.mobile.MobilePosition" },
+                    "positionId": 2318773,
+                    "positionName": "UI设计师",
+                    "city": "北京",
+                    "createTime": "昨天 19:49",
+                    "salary": "10k-20k",
+                    "companyId": 133,
+                    "companyLogo": "image1/M00/39/70/CgYXBlWo3nqABJTsAADJ3hn5gmE062.jpg",
+                    "companyName": "猎豹移动",
+                    "companyFullName": "北京金山网络科技有限公司"
+                }, {
+                    "logger": { "traceCapable": true, "name": "com.lagou.entity.mobile.MobilePosition" },
+                    "positionId": 2494445,
+                    "positionName": "PHP",
+                    "city": "上海",
+                    "createTime": "昨天 19:41",
+                    "salary": "15k-30k",
+                    "companyId": 32799,
+                    "companyLogo": "image1/M00/35/BF/Cgo8PFWcna-AN94uAARHfTboD6E177.png",
+                    "companyName": "钱牛牛",
+                    "companyFullName": "上海乾生乾金融信息服务有限公司"
+                }, {
+                    "logger": { "traceCapable": true, "name": "com.lagou.entity.mobile.MobilePosition" },
+                    "positionId": 2303017,
+                    "positionName": "Ad Exchange&amp;联盟产品组经理",
+                    "city": "北京",
+                    "createTime": "昨天 19:31",
+                    "salary": "30k-50k",
+                    "companyId": 8103,
+                    "companyLogo": "i/image/M00/01/80/CgqKkVZuPraAN3O6AACFeBgN7dY620.jpg",
+                    "companyName": "汽车之家",
+                    "companyFullName": "北京车之家信息技术有限公司"
+                }, {
+                    "logger": { "traceCapable": true, "name": "com.lagou.entity.mobile.MobilePosition" },
+                    "positionId": 2303256,
+                    "positionName": "智能广告产品组产品经理",
+                    "city": "北京",
+                    "createTime": "昨天 19:31",
+                    "salary": "20k-30k",
+                    "companyId": 8103,
+                    "companyLogo": "i/image/M00/01/80/CgqKkVZuPraAN3O6AACFeBgN7dY620.jpg",
+                    "companyName": "汽车之家",
+                    "companyFullName": "北京车之家信息技术有限公司"
+                }, {
+                    "logger": { "traceCapable": true, "name": "com.lagou.entity.mobile.MobilePosition" },
+                    "positionId": 2493023,
+                    "positionName": "运维",
+                    "city": "上海",
+                    "createTime": "昨天 19:19",
+                    "salary": "6k-8k",
+                    "companyId": 24995,
+                    "companyLogo": "image1/M00/00/33/CgYXBlTUXI-AC08_AACIkHlny3Y866.jpg",
+                    "companyName": "泛微",
+                    "companyFullName": "上海泛微网络科技股份有限公司"
+                }, {
+                    "logger": { "traceCapable": true, "name": "com.lagou.entity.mobile.MobilePosition" },
+                    "positionId": 2517505,
+                    "positionName": "招聘",
+                    "city": "上海",
+                    "createTime": "昨天 19:19",
+                    "salary": "5k-6k",
+                    "companyId": 24995,
+                    "companyLogo": "image1/M00/00/33/CgYXBlTUXI-AC08_AACIkHlny3Y866.jpg",
+                    "companyName": "泛微",
+                    "companyFullName": "上海泛微网络科技股份有限公司"
+                }, {
+                    "logger": { "traceCapable": true, "name": "com.lagou.entity.mobile.MobilePosition" },
+                    "positionId": 2332147,
+                    "positionName": "游戏剧情策划",
+                    "city": "上海",
+                    "createTime": "昨天 19:19",
+                    "salary": "6k-12k",
+                    "companyId": 145714,
+                    "companyLogo": "i/image/M00/1C/F5/CgpFT1kMOTuALhLUAADje1W_VvU987.png",
+                    "companyName": "美猴娱乐",
+                    "companyFullName": "上海美猴网络科技有限公司"
+                }],
+                "totalCount": "242615",
+                "pageNo": 2
+            }
+        },
+        "rows": []
+    },
+    "message": "第2页数据,每页15条, 查询成功!",
+    "state": 1
+}
